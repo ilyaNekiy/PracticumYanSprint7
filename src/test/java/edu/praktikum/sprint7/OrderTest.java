@@ -2,12 +2,10 @@ package edu.praktikum.sprint7;
 
 
 import edu.praktikum.sprint7.clients.OrderClient;
-import edu.praktikum.sprint7.models.CourierId;
 import edu.praktikum.sprint7.models.Order;
 
 import edu.praktikum.sprint7.models.OrderTrack;
 import io.restassured.response.Response;
-import org.junit.After;
 import org.junit.Test;
 import static edu.praktikum.sprint7.generators.OrderGenerator.*;
 import static org.apache.http.HttpStatus.*;
